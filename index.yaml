@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-08-05T00:30:32.880539939Z"
+    description: Hello World
+    digest: e7dfbad03853b907e771c446d2fc0d020b86a8cc590a5de4d76629cfeb5f4960
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/redish101/charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-08-05T00:30:32.880545339Z"
