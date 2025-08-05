@@ -2,9 +2,6 @@ name: release
 
 on:
   push:
-    paths:
-      - '.github/workflows/cd-helm.yml'
-      - 'charts/**'
     branches:
       - master
 
