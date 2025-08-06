@@ -43,19 +43,6 @@ jobs:
         uses: azure/setup-helm@v4.3.0
         with:
           version: latest
-        id: helm
-      - run: |
-          PAGES_BRANCH=gh-pages
-          git clone "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" --branch $PAGES_BRANCH --single-branch .cr-release-packages
-          
-          # 在目标目录中创建 artifacthub-repo.yml 文件
-          cat <<EOF > .cr-release-packages/artifacthub-repo.yml
-          repositoryID: "b2c9fd9d-3383-4bb8-b8df-9e82e6a90e0c"
-          owners:
-            - name: "Redish101"
-              email: "i@redish101.top"
-          EOF
-        shell: bash
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.7.0
