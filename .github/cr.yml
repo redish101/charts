@@ -1,0 +1,3 @@
+# chart-releaser-action 使用的发布包目录
+packages-dir: .cr-release-packages
+pages-branch: gh-pages
