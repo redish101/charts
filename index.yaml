@@ -11,4 +11,22 @@ entries:
     urls:
     - https://github.com/redish101/charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-05T00:30:32.880545339Z"
+  napcat:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-08-06T08:12:16.89776173Z"
+    description: Modern protocol-side framework based on NTQQ
+    digest: 55ffb98146bbff5016ed9bffffab951a63050d3eb8a64d717d6920650bae00b4
+    icon: https://github.com/NapNeko.png
+    keywords:
+    - ntqq
+    - napcat
+    maintainers:
+    - email: i@redish101.top
+      name: Redish101
+    name: napcat
+    type: application
+    urls:
+    - https://github.com/redish101/charts/releases/download/napcat-0.1.0/napcat-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-08-06T08:12:16.897766891Z"
