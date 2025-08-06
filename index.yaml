@@ -14,6 +14,23 @@ entries:
   napcat:
   - apiVersion: v2
     appVersion: latest
+    created: "2025-08-06T08:45:38.802403379Z"
+    description: Modern protocol-side framework based on NTQQ
+    digest: 99e45d0c84abd7cd94e82045acb9eda3c99e7a2d523ebe5d3ab4de993c99e102
+    icon: https://github.com/NapNeko.png
+    keywords:
+    - ntqq
+    - napcat
+    maintainers:
+    - email: i@redish101.top
+      name: Redish101
+    name: napcat
+    type: application
+    urls:
+    - https://github.com/redish101/charts/releases/download/napcat-0.1.3/napcat-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: latest
     created: "2025-08-06T08:42:02.061426203Z"
     description: Modern protocol-side framework based on NTQQ
     digest: 18a3164522d60e9799e383f18f80a5bee9a8f46ab31427e4fe4e2b6b3993dad7
@@ -63,4 +80,4 @@ entries:
     urls:
     - https://github.com/redish101/charts/releases/download/napcat-0.1.0/napcat-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-06T08:42:02.061441992Z"
+generated: "2025-08-06T08:45:38.802418962Z"
